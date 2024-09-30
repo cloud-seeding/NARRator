@@ -1,3 +1,6 @@
 {
-  "root": "https://psl.noaa.gov/thredds/catalog/Datasets/NARR/catalog.html"
+  "root": {
+    "URL": "https://psl.noaa.gov/thredds/catalog/Datasets/NARR/catalog.html",
+    "selector": "td a"
+  }
 }
