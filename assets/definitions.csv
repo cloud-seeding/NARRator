@@ -1,0 +1,80 @@
+Parameter,Name,Definition
+acpcp,Convective Precipitation Accumulation,Amount of precipitation accumulated from convective processes over a specified period.
+air,Air Temperature,The temperature of the air at a specific level in the atmosphere.
+albedo,Surface Albedo,The fraction of incoming solar radiation that is reflected by the Earth's surface.
+apcp,Total Precipitation Accumulation,"The total amount of precipitation accumulated over a specified period, including both convective and stratiform precipitation."
+bgrun,Baseflow-Groundwater Runoff,"The portion of runoff that comes from groundwater seeping into streams, contributing to baseflow."
+bmixl,Boundary Layer Mixing Length Scale,A parameter representing the vertical distance over which turbulent mixing occurs in the atmospheric boundary layer.
+cape,Convective Available Potential Energy,A measure of the amount of energy available for convection; higher values indicate a greater potential for thunderstorms and severe weather.
+ccond,Canopy Conductance,The rate at which water vapor is transferred from the vegetation canopy to the atmosphere.
+cdcon,Cloud Water Condensate,The amount of liquid water content within clouds.
+cdlyr,Cloud Layer,"Information about cloud layers in the atmosphere, such as altitude and thickness."
+cfrzr,Categorical Freezing Rain,Indicator variable that signifies the presence of freezing rain.
+cicep,Categorical Ice Pellets (Sleet),Indicator variable that signifies the presence of ice pellets.
+cin,Convective Inhibition,The amount of energy that must be overcome for convection to occur; higher values suppress convection.
+cnwat,Canopy Water Content,The amount of water stored on vegetation surfaces due to processes like dew or intercepted precipitation.
+crain,Categorical Rain,Indicator variable that signifies the presence of rain.
+csnow,Categorical Snow,Indicator variable that signifies the presence of snow.
+dlwrf,Downward Longwave Radiation Flux,The amount of longwave (infrared) radiation reaching the Earth's surface from the atmosphere.
+dpt,Dew Point Temperature,The temperature at which air becomes saturated with moisture and dew can form.
+dswrf,Downward Shortwave Radiation Flux,The amount of solar radiation reaching the Earth's surface.
+evap,Evaporation,The process by which water is converted from liquid to vapor and removed from the surface.
+gflux,Ground Heat Flux,"The rate of heat transfer through the ground, affecting soil temperature."
+hcdc,High Cloud Cover,"The fraction of the sky covered by high-level clouds (cirrus, cirrostratus)."
+hgt,Geopotential Height,"The height of a pressure surface in the atmosphere, important for understanding weather patterns."
+hlcy,Storm Relative Helicity,"A measure of the potential for cyclonic updraft rotation in storms, influencing tornado formation."
+hpbl,Planetary Boundary Layer Height,The depth of the atmospheric layer closest to the Earth's surface where friction and turbulence are significant.
+lcdc,Low Cloud Cover,"The fraction of the sky covered by low-level clouds (stratus, stratocumulus)."
+lftx4,Severe Weather Threat Index (Lifted Index),An index used to assess the potential for severe weather; negative values indicate instability.
+lhtfl,Latent Heat Flux,"The rate of heat transfer due to moisture changes, such as evaporation or condensation."
+mcdc,Middle Cloud Cover,"The fraction of the sky covered by mid-level clouds (altostratus, altocumulus)."
+mconv,Moisture Convergence,The accumulation of moisture in a region due to atmospheric flow convergence.
+mslet,Mean Sea Level Pressure (ETA Model Reduction),"Atmospheric pressure at sea level, reduced from the ETA model calculations."
+mstav,Moisture Availability,The fraction of total moisture available for evaporation at the surface.
+pevap,Potential Evaporation,The amount of evaporation that would occur if sufficient moisture were available.
+pottmp,Potential Temperature,The temperature an air parcel would have if brought adiabatically to a standard pressure level (usually 1000 hPa).
+pr_wtr,Precipitable Water,The total amount of water vapor in a column of the atmosphere from the surface to the top of the atmosphere.
+prate,Precipitation Rate,"The rate at which precipitation is falling at a given time, usually measured in mm/hour."
+pres,Pressure,Atmospheric pressure at a specific location and altitude.
+prmsl,Pressure Reduced to Mean Sea Level,"Atmospheric pressure adjusted to sea level, used for weather mapping."
+rcq,Humidity Flux Convergence,The rate at which moisture is converging in a region due to atmospheric motion.
+rcs,Moisture Flux Convergence (Stream Function),Related to the convergence of moisture flux calculated using the stream function.
+rcsol,Solar Radiation Flux Convergence,The rate at which solar radiation flux is converging in a region.
+rct,Total Flux Convergence,"The total convergence of various atmospheric fluxes like moisture, heat, and momentum."
+rhum,Relative Humidity,The amount of water vapor present in air expressed as a percentage of the amount needed for saturation at the same temperature.
+shtfl,Sensible Heat Flux,The rate of heat transfer between the Earth's surface and the atmosphere due to temperature differences.
+shum,Specific Humidity,"The mass of water vapor per unit mass of air, usually expressed in g/kg."
+snod,Snow Depth,The depth of accumulated snow on the ground.
+snohf,Snow Heat Flux,"The rate of heat transfer within the snowpack, affecting melting and temperature."
+snom,Snow Melt,"The amount of snow melting over a period, contributing to runoff."
+snowc,Snow Cover,The fraction of the ground covered by snow.
+soilm,Soil Moisture Content,"The amount of water contained in the soil, critical for agriculture and hydrology."
+ssrun,Storm Surface Runoff,The runoff generated from storm precipitation that does not infiltrate into the soil.
+tcdc,Total Cloud Cover,The fraction of the sky covered by all types of clouds.
+tke,Turbulent Kinetic Energy,"The energy contained in turbulent motions of the atmosphere, affecting mixing and dispersion."
+ulwrf,Upward Longwave Radiation Flux,The amount of longwave radiation emitted upward from the Earth's surface.
+ustm,U-component of Storm Motion,"The east-west component of storm motion, useful in storm tracking."
+uswrf,Upward Shortwave Radiation Flux,The amount of solar radiation reflected upward from the Earth's surface.
+uwnd,U-component of Wind,The east-west (zonal) component of the wind.
+veg,Vegetation Cover,"The fraction of the ground covered by vegetation, influencing evapotranspiration and albedo."
+vis,Visibility,The maximum distance at which objects can be clearly discerned.
+vstm,V-component of Storm Motion,The north-south component of storm motion.
+vvel,Vertical Velocity,"The rate of vertical movement in the atmosphere, important for cloud formation and precipitation."
+vwnd,V-component of Wind,The north-south (meridional) component of the wind.
+vwsh,Vertical Wind Shear,"The change in wind speed and/or direction with height, critical for storm development."
+wcconv,Water Vapor Flux Convergence,"The convergence of water vapor flux in the atmosphere, affecting moisture availability."
+wcinc,Water Vapor Flux Increment,The change in water vapor flux over time.
+wcuflx,Upward Water Vapor Flux,The upward movement of water vapor from the surface into the atmosphere.
+wcvflx,Vertical Water Vapor Flux,The vertical component of water vapor flux.
+weasd,Water Equivalent of Accumulated Snow Depth,"The amount of water contained in the snowpack, important for runoff predictions."
+wvconv,Water Vapor Convergence,The rate at which water vapor is converging in a region due to atmospheric motion.
+wvinc,Water Vapor Increment,The change in water vapor content over time in a specific atmospheric layer.
+wvuflx,Water Vapor Upward Flux,Similar to wcuflx; the upward flux of water vapor from the surface.
+wvvflx,Water Vapor Vertical Flux,Similar to wcvflx; the vertical flux of water vapor.
+omega,Vertical Velocity in Pressure Coordinates,"The rate of change of pressure with time, indicating vertical motion in the atmosphere."
+soill,Soil Temperature,The temperature of the soil at various depths.
+soilw,Soil Wetness,"The degree of saturation of the soil, affecting runoff and plant growth."
+tsoil,Soil Temperature,Duplicate of soill; the temperature of the soil.
+quflux,Zonal Moisture Flux,The east-west component of moisture flux in the atmosphere.
+qvflux,Meridional Moisture Flux,The north-south component of moisture flux in the atmosphere.
+wspd,Wind Speed,"The speed of the wind regardless of direction, calculated from its components."
